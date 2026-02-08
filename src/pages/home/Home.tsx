@@ -10,7 +10,7 @@ const Home: React.FC<{onSubmit: (code:string) => void, isLoading: boolean}> = ({
 
   return (
     <>
-    <div className="w-[50dvw] lg:w-[20dvw] flex gap-2 border-2 border-gray-800 hover:border-gray-500 outline-0 pl-2 pr-1 py-1 rounded-lg transition-all">
+    <div className="w-[90dvw] lg:w-[20dvw] flex gap-2 border-2 border-gray-800 hover:border-gray-500 outline-0 pl-2 pr-1 py-1 rounded-lg transition-all">
       <input 
         className="flex-1 outline-0"
         placeholder="Enter Code" type="text" value={code} onChange={handleChange} 
