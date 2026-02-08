@@ -17,7 +17,7 @@ export function daysBetween(startDate: Date, endDate: Date) {
 
 export function secondsBetween(startDate: Date, endDate: Date) {
 
-  const timeDifferenceMs = endDate - startDate; 
+  const timeDifferenceMs = endDate.getTime() - startDate.getTime(); 
   const timeDifferenceSeconds = timeDifferenceMs / 1000;
   const totalSeconds = Math.floor(timeDifferenceSeconds);
 
