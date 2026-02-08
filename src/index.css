@@ -4,6 +4,12 @@
 
 body {
   background-color: black;
-  font-family: "DM Sans";
+  font-family: "DM Sans"!important;
   color: white;
+}
+
+.Toastify__toast {
+  border-radius: 20px;
+  font-family: "DM Sans";
+  color: black;
 }

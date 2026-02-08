@@ -1,4 +1,5 @@
 interface baseResponse {
+  statusCode: number,
   message: string
 }
 
@@ -29,5 +30,7 @@ export interface deleteCountRequestType {
 }
 
 export interface deleteCountResponseType extends baseResponse {
-  code: string
+  data: {
+    code: string
+  }
 }
